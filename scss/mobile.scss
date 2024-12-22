@@ -1,0 +1,74 @@
+//mainheader
+#mainheader, #mainheader-2, #mainheader-3, #mainheader-4 {
+    .navbar {
+        .logo {
+            display: block;
+            margin: 0 auto;
+            text-align: center;
+            padding: 3rem 0;
+        }
+        ul {
+            display: block;
+            text-align: center;
+        }
+        li {
+            text-align: center;
+        }
+        .container {
+            display: block;
+        }
+    }
+}
+#showcase {
+    .showcase-text {
+        display: block;
+        p {
+            margin-bottom: 2rem;
+        }
+    }
+}
+
+.grid {
+    grid-template-columns: repeat(1, 1fr);    
+}
+
+//news
+#news  {        
+        .grid-box-1 {
+            grid-row: 1;
+        }
+        .grid-box-2 {
+            grid-row: 2;
+        }
+        .grid-box-3 {
+            grid-row: 3;
+        }
+        .grid-box-4{
+            grid-row: 4;
+        }
+
+        .grid-box-1,
+        .grid-box-2,
+        .grid-box-3,
+        .grid-box-4 {
+            grid-column: 1;
+        }  
+}
+
+//mainheader-services
+#mainheader-3 {
+    #services {
+        .services-flex {
+            display: block;
+   
+        }
+    }
+}
+
+//portfolio
+#portfolio {
+    h2 {
+        font-size: 1rem;
+        color: red;
+    }
+}

@@ -1,0 +1,55 @@
+#mainheader .navbar .logo, #mainheader-2 .navbar .logo, #mainheader-3 .navbar .logo, #mainheader-4 .navbar .logo {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 3rem 0;
+}
+#mainheader .navbar ul, #mainheader-2 .navbar ul, #mainheader-3 .navbar ul, #mainheader-4 .navbar ul {
+  display: block;
+  text-align: center;
+}
+#mainheader .navbar li, #mainheader-2 .navbar li, #mainheader-3 .navbar li, #mainheader-4 .navbar li {
+  text-align: center;
+}
+#mainheader .navbar .container, #mainheader-2 .navbar .container, #mainheader-3 .navbar .container, #mainheader-4 .navbar .container {
+  display: block;
+}
+
+#showcase .showcase-text {
+  display: block;
+}
+#showcase .showcase-text p {
+  margin-bottom: 2rem;
+}
+
+.grid {
+  grid-template-columns: repeat(1, 1fr);
+}
+
+#news .grid-box-1 {
+  grid-row: 1;
+}
+#news .grid-box-2 {
+  grid-row: 2;
+}
+#news .grid-box-3 {
+  grid-row: 3;
+}
+#news .grid-box-4 {
+  grid-row: 4;
+}
+#news .grid-box-1,
+#news .grid-box-2,
+#news .grid-box-3,
+#news .grid-box-4 {
+  grid-column: 1;
+}
+
+#mainheader-3 #services .services-flex {
+  display: block;
+}
+
+#portfolio h2 {
+  font-size: 1rem;
+  color: red;
+}/*# sourceMappingURL=mobile.css.map */
