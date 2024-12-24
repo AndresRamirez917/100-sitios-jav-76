@@ -243,6 +243,30 @@ img {
   margin-bottom: 10px;
 }
 
+#testimonials {
+  width: 90%;
+  margin: 0 auto;
+}
+#testimonials h2 {
+  text-transform: uppercase;
+  margin: 4rem 0;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 300;
+}
+#testimonials .testimonials-flex {
+  flex-wrap: wrap;
+}
+#testimonials .testimonials-flex .flexbox {
+  width: 30%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+#testimonials .testimonials-flex .flexbox img {
+  border-radius: 50%;
+}
+
 #mainheader-4 {
   background: #02dbf8;
   color: #fff;

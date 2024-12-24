@@ -256,6 +256,31 @@ img {
 }
 }
 
+//testimonilas
+#testimonials {
+    width: 90%;
+    margin: 0 auto;
+    h2 {
+        text-transform: uppercase;
+        margin: 4rem 0;
+        text-align: center;
+        font-size: 3rem;
+        font-weight: 300;
+    }
+    .testimonials-flex {
+        flex-wrap: wrap;
+        .flexbox {
+            width: 30%;
+            margin: 0 auto;
+            text-align: center;
+            margin-bottom: 2rem;
+            img {
+               border-radius: 50%;
+           }
+        }
+    }
+}
+
 //mainheader-4
 #mainheader-4 {
     background: #02dbf8;
